@@ -27,7 +27,21 @@ public class Tulostin {
  
         
          tulo = luku1 * luku2;
+
+        System.out.println(luku1 + " * " + luku2 + " = " + tulo);
+
+        summa = luku1 + luku2;
+        erotus = luku1 - luku2;
+        jako = luku1 / luku2;
+
+        System.out.println(luku1 + " + " + luku2 + " = " + summa);
+
+        System.out.println(luku1 + " - " + luku2 + " = " + erotus);
+
+        System.out.println(luku1 + " / " + luku2 + " = " + jako);
     }
 
 }
+
+
 
